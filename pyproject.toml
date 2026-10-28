@@ -1,0 +1,14 @@
+[project]
+name = "memoria-rag"
+version = "0.1.0"
+description = "Tutorial de memoria a corto, medio y largo plazo con RAG"
+readme = "README.md"
+requires-python = ">=3.12,<3.14"
+dependencies = [
+    "anthropic",
+    "chromadb",
+    "ollama>=0.6.3",
+    "pymupdf>=2.0",
+    "python-dotenv",
+    "sentence-transformers",
+]

@@ -1,0 +1,25 @@
+# Entorno virtual de Python
+.venv/
+
+# Variables de entorno y credenciales
+.env
+.env.*
+
+# Base de datos vectorial y memoria persistente
+datos/
+
+# Archivos temporales de Python
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# Documentos PDF cargados
+documentos/
+*.pdf
+
+# Configuración local de VS Code
+.vscode/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
